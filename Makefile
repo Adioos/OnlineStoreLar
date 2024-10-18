@@ -13,4 +13,5 @@ npm-build:
 npm-dev:
 	${docker-compose} exec node npm run dev
 tinker:
-    ${docker-compose} exec -u 0 php-cli php artisan tinker
+	${docker-compose} exec -u 0 php-cli php artisan tinker
+
